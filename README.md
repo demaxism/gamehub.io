@@ -81,7 +81,16 @@ Chess logic on the client side uses the excellent <a href="https://github.com/jh
 
 * Node JS
 * Mongo DB up and running on the default port (27017) and using the default database (test)
+```
+$> sudo brew install mongodb
+$> mkdir -p /data/db
+$> mongod
+```
 * ElasticSearch server up and running on the default port (9200)
+```
+$> sudo brew install elasticsearch
+$> sudo elasticsearch
+```
 
 #### Run the application
 
